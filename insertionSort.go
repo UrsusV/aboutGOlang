@@ -10,8 +10,10 @@ func insertionSort(arr []int) []int {
 			arr[j+1] = arr[j]
 			j--
 		}
+
 		arr[j+1] = key
 	}
+
 	return arr
 }
 
